@@ -23,6 +23,7 @@ body{
     background-color: white;
     flex-direction: column;
     border-radius: 20px;
+    box-shadow: 0 4px 8px 0  hsla(224, 23%, 55%,0.2), 0 6px 20px 0  hsla(224, 23%, 55%,0.19);
   }
   .hero{
     width: 100%;
@@ -92,6 +93,12 @@ body{
     margin-right: 20px;
     font-size: 14px;
     font-weight: 700;
+    
+  }
+
+  .summary .plan-container .change:hover a:hover{
+    opacity: 0.8;
+    text-decoration: none;
   }
   .summary .plan-container .left .type{
     display: flex;
@@ -136,6 +143,12 @@ body{
     display: flex;
     font-weight: 700;
     margin-top: -20px;
+    box-shadow: 0 4px 8px 0  hsla(224, 23%, 55%,0.2), 0 6px 20px 0  hsla(224, 23%, 55%,0.19);
+
+  }
+  .summary .payment-flex .payment .btn:hover{
+    cursor: pointer;
+    background-color: hsla(245, 75%, 52%,0.5);;
   }
   .summary .payment-flex .cancel{
     text-align: center;
@@ -145,3 +158,9 @@ body{
     color:  hsl(224, 23%, 55%);
     font-weight: 700;
   }
+
+  .summary .payment-flex .cancel:hover{
+    color:  hsl(223, 47%, 23%);
+    cursor: pointer;
+
+  }  
